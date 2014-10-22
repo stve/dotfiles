@@ -1,3 +1,4 @@
-alias sc='script/console'
-alias sg='script/generate'
-alias sd='script/destroy'
+alias rc='script/console'
+alias rg='script/generate'
+alias rd='script/destroy'
+alias cov='/usr/bin/open -a "/Applications/Google Chrome.app" coverage/index.html'
