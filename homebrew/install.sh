@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils spark direnv exiftool youtube-dl hub s3cmd taglib id3lib the_silver_searcher ffmpeg
 
 exit 0
