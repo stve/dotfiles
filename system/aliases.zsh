@@ -9,6 +9,9 @@ then
   alias la='gls -A --color'
 fi
 
+alias rm='rm -i'
+alias cl='clear'
+
 alias mstart='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist'
 alias mstop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist'
 alias mystart='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist'
