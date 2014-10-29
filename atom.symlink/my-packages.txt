@@ -1,4 +1,15 @@
+assign-align@0.1.0
+autocomplete-plus@0.21.0
 glacier-syntax@0.0.4
+go-format@1.0.7
+go-playground@0.0.2
+language-dotenv@0.3.0
+language-lua@0.9.0
+language-rust@0.3.1
+monokai@0.8.0
+rspec@0.1.9
+ruby-test@0.9.1
+unity-dark-ui@1.0.0
 unity-ui@1.0.1
 yosemite-unity-ui@0.3.13
 
