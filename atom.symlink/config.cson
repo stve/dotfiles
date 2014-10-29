@@ -3,6 +3,7 @@
     'showIndentGuide': true
     'fontFamily': 'Menlo'
     'fontSize': 12
+    'showInvisibles': true
     'invisibles': {}
   'core':
     'ignoredNames': [
@@ -17,7 +18,7 @@
       'yosemite-unity-ui'
       'glacier-syntax'
     ]
-    'hideGitIgnoredFiles': false
+    'hideGitIgnoredFiles': true
     'disabledPackages': [
       'background-tips'
       'exception-reporting'
@@ -29,7 +30,14 @@
       'source.gfm'
       'text.git-commit'
     ]
+  'whitespace': {}
   'welcome':
     'showOnStartup': false
   'release-notes':
     'viewedVersion': '0.89.0'
+'.gohtml.html.text':
+  'editor': {}
+'.gotemplate.source':
+  'editor': {}
+'.go.source':
+  'editor': {}
