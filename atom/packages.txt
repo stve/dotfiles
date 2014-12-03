@@ -5,7 +5,7 @@ go-format@1.0.7
 go-playground@0.0.2
 language-dotenv@0.3.0
 language-lua@0.9.0
-language-rust@0.3.1
+language-rust@0.3.2
 linter-csslint@0.0.11
 linter-erb@0.0.3
 linter-htmlhint@0.0.8
@@ -15,10 +15,10 @@ linter-rubocop@0.2.1
 linter-ruby@0.1.4
 linter-rust@0.0.3
 merge-conflicts@1.2.8
-monokai@0.8.0
+monokai@0.9.0
 rspec@0.1.9
 ruby-test@0.9.1
 unity-dark-ui@1.0.0
-unity-ui@1.0.1
+unity-ui@1.0.3
 yosemite-unity-ui@0.3.13
 
