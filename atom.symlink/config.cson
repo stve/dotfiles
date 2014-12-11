@@ -4,7 +4,6 @@
     'fontFamily': 'Menlo'
     'fontSize': 12
     'showInvisibles': true
-    'invisibles': {}
   'core':
     'ignoredNames': [
       '.bundle'
@@ -15,7 +14,7 @@
       'vendor'
     ]
     'themes': [
-      'yosemite-unity-ui'
+      'unity-dark-ui'
       'glacier-syntax'
     ]
     'hideGitIgnoredFiles': true
@@ -30,11 +29,11 @@
       'source.gfm'
       'text.git-commit'
     ]
-  'whitespace': {}
   'welcome':
     'showOnStartup': false
   'release-notes':
     'viewedVersion': '0.89.0'
+  'linter': {}
 '.gohtml.html.text':
   'editor': {}
 '.gotemplate.source':
