@@ -36,7 +36,7 @@
   'linter': {}
 '.gohtml.html.text':
   'editor': {}
-'.gotemplate.source':
-  'editor': {}
 '.go.source':
+  'editor': {}
+'.gotemplate.source':
   'editor': {}
