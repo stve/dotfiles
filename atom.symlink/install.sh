@@ -10,7 +10,7 @@ then
   echo "  apm not found, make sure atom shell commands are installed."
   exit 1
 else
-  apm install --packages-file $ZSH/atom.symlink/my-packages.txt
+  apm stars --install
 fi
 
 exit 0
