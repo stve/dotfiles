@@ -1,9 +1,9 @@
-'global':
+'*':
   'editor':
-    'showIndentGuide': true
     'fontFamily': 'Menlo'
     'fontSize': 12
     'showInvisibles': true
+    'showIndentGuide': true
   'core':
     'ignoredNames': [
       '.bundle'
@@ -13,15 +13,14 @@
       'tmp'
       'vendor'
     ]
-    'themes': [
-      'unity-dark-ui'
-      'glacier-syntax'
-    ]
-    'hideGitIgnoredFiles': true
     'disabledPackages': [
       'background-tips'
       'exception-reporting'
       'metrics'
+    ]
+    'themes': [
+      'unity-dark-ui'
+      'glacier-syntax'
     ]
   'spell-check':
     'grammars': [
@@ -35,9 +34,9 @@
     'viewedVersion': '0.89.0'
   'linter': {}
   'go-format': {}
-'.gohtml.html.text':
-  'editor': {}
-'.go.source':
-  'editor': {}
-'.gotemplate.source':
-  'editor': {}
+  '.gohtml.html.text':
+    'editor': {}
+  '.go.source':
+    'editor': {}
+  '.gotemplate.source':
+    'editor': {}
