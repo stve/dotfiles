@@ -34,9 +34,3 @@
     'viewedVersion': '0.89.0'
   'linter': {}
   'go-format': {}
-  '.gohtml.html.text':
-    'editor': {}
-  '.go.source':
-    'editor': {}
-  '.gotemplate.source':
-    'editor': {}
