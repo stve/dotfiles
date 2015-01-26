@@ -1,36 +1,38 @@
-'*':
-  'editor':
-    'fontFamily': 'Menlo'
-    'fontSize': 12
-    'showInvisibles': true
-    'showIndentGuide': true
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
+"*":
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    showInvisibles: true
+    showIndentGuide: true
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
     ]
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
     ]
-    'themes': [
-      'unity-dark-ui'
-      'glacier-syntax'
+    themes: [
+      "unity-dark-ui"
+      "monokai"
     ]
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
+    projectHome: "/Users/steveagalloco/Projects"
+    audioBeep: false
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
     ]
-  'welcome':
-    'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
-  'linter': {}
-  'go-format': {}
+  welcome:
+    showOnStartup: false
+  "release-notes":
+    viewedVersion: "0.89.0"
+  linter: {}
