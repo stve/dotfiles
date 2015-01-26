@@ -1,1 +1,1 @@
---skip-test-unit --skip-gems turbolinks coffee-rails
+--skip-test-unit --skip-turbolinks
