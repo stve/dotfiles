@@ -18,10 +18,12 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "linter-rubocop"
+      "block-travel"
     ]
     themes: [
-      "unity-dark-ui"
-      "monokai"
+      "unity-ui"
+      "one-dark-syntax"
     ]
     projectHome: "/Users/steveagalloco/Projects"
     audioBeep: false
@@ -36,3 +38,5 @@
   "release-notes":
     viewedVersion: "0.89.0"
   linter: {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
