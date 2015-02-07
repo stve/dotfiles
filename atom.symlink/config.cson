@@ -23,7 +23,7 @@
     ]
     themes: [
       "unity-ui"
-      "one-dark-syntax"
+      "base16-syntax"
     ]
     projectHome: "/Users/steveagalloco/Projects"
     audioBeep: false
@@ -40,3 +40,6 @@
   linter: {}
   "autocomplete-plus":
     confirmCompletion: "enter"
+  minimap: {}
+  "base16-syntax":
+    scheme: "Ocean"
