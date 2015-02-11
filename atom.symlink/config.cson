@@ -19,7 +19,6 @@
       "exception-reporting"
       "metrics"
       "linter-rubocop"
-      "block-travel"
     ]
     themes: [
       "unity-ui"
