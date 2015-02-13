@@ -1,0 +1,22 @@
+#!/bin/sh
+
+readonly PROGNAME=$(basename $0)
+readonly PROGDIR=$(dirname $PROGNAME)
+readonly ARGS="$@"
+readonly PROJECT=${PWD##*/}
+
+is_empty() {
+  local var=$1
+
+  [[ -z $var ]]
+}
+
+main() {
+  local CAP_ENV=$ARGS
+  is_empty $CAP_ENV \
+    && CAP_ENV=production
+
+  cap $CAP_ENV invoke COMMAND="tail -f /app/$PROJECT/shared/log/$CAP_ENV.log"
+}
+
+main
