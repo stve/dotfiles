@@ -42,3 +42,6 @@
   minimap: {}
   "base16-syntax":
     scheme: "Ocean"
+  "go-plus": {}
+  "atom-alignment": {}
+  "tree-view": {}
