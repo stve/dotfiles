@@ -36,7 +36,10 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
-  linter: {}
+  linter:
+    subtleLinterErrors: [
+      "ruby"
+    ]
   "autocomplete-plus":
     confirmCompletion: "enter"
   minimap: {}
