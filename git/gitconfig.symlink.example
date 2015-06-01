@@ -15,6 +15,8 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+        new = !sh -c 'git checkout -b $(git config --get user.name)/$0'
+        pushup = !sh -c 'git push --set-upstream origin $(git copy-branch-name)'
 [color]
         diff = auto
         status = auto
