@@ -4,15 +4,15 @@
     fontSize: 12
     showInvisibles: true
     showIndentGuide: true
-    invisibles: {}
+    invisibles:
+      {}
   core:
     ignoredNames: [
-      ".bundle"
-      ".git"
       "log"
       "repositories"
       "tmp"
       "vendor"
+      ".bundle"
     ]
     disabledPackages: [
       "background-tips"
@@ -26,6 +26,7 @@
     ]
     projectHome: "/Users/steveagalloco/Projects"
     audioBeep: false
+    excludeVcsIgnoredPaths: false
   "spell-check":
     grammars: [
       "text.plain"
@@ -42,9 +43,15 @@
     ]
   "autocomplete-plus":
     confirmCompletion: "enter"
-  minimap: {}
+  minimap:
+    {}
   "base16-syntax":
     scheme: "Ocean"
-  "go-plus": {}
-  "atom-alignment": {}
-  "tree-view": {}
+  "go-plus":
+    {}
+  "atom-alignment":
+    {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "unity-ui":
+    colorStatusIndicatorsInTreeView: true
