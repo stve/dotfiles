@@ -4,8 +4,7 @@
     fontSize: 12
     showInvisibles: true
     showIndentGuide: true
-    invisibles:
-      {}
+    invisibles: {}
   core:
     ignoredNames: [
       "log"
@@ -43,14 +42,11 @@
     ]
   "autocomplete-plus":
     confirmCompletion: "enter"
-  minimap:
-    {}
+  minimap: {}
   "base16-syntax":
     scheme: "Ocean"
-  "go-plus":
-    {}
-  "atom-alignment":
-    {}
+  "go-plus": {}
+  "atom-alignment": {}
   "tree-view":
     hideVcsIgnoredFiles: true
   "unity-ui":
