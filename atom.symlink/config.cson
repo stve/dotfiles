@@ -17,7 +17,9 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "linter-rubocop"
+      "autocomplete-elixir"
+      "language-elixir"
+      "linter-elixirc"
     ]
     themes: [
       "unity-ui"
@@ -51,3 +53,11 @@
     hideVcsIgnoredFiles: true
   "unity-ui":
     colorStatusIndicatorsInTreeView: true
+  "linter-elixirc":
+    elixircExecutablePath: "/usr/local/bin/elixirc"
+  "autocomplete-elixir":
+    elixrPath: "/usr/local/bin/elixir"
+    elixirPath: "/usr/local/bin/elixir"
+  "xml-formatter":
+    numberCharIndent: 4
+  "linter-rubocop": {}
