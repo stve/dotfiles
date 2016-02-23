@@ -1,63 +1,68 @@
 "*":
-  editor:
-    fontFamily: "Menlo"
-    fontSize: 12
-    showInvisibles: true
-    showIndentGuide: true
-    invisibles: {}
+  "atom-alignment": {}
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    elixrPath: "/usr/local/bin/elixir"
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  "base16-syntax":
+    scheme: "Ocean"
   core:
+    audioBeep: false
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "language-elixir"
+      "linter-rubocop"
+      "linter-elixirc"
+      "autocomplete-elixir"
+      "linter-htmlhint"
+    ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       "log"
       "repositories"
       "tmp"
       "vendor"
       ".bundle"
+      "coverage"
     ]
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-      "autocomplete-elixir"
-      "language-elixir"
-      "linter-elixirc"
-    ]
+    projectHome: "/Users/steveagalloco/Projects"
     themes: [
       "unity-ui"
       "base16-syntax"
     ]
-    projectHome: "/Users/steveagalloco/Projects"
-    audioBeep: false
-    excludeVcsIgnoredPaths: false
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  "git-blame": {}
+  "go-plus": {}
+  linter:
+    subtleLinterErrors: [
+      "ruby"
+    ]
+  "linter-elixirc":
+    elixircExecutablePath: "/usr/local/bin/elixirc"
+  "linter-jshint": {}
+  "linter-rubocop": {}
+  minimap: {}
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
-  welcome:
-    showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  linter:
-    subtleLinterErrors: [
-      "ruby"
-    ]
-  "autocomplete-plus":
-    confirmCompletion: "enter"
-  minimap: {}
-  "base16-syntax":
-    scheme: "Ocean"
-  "go-plus": {}
-  "atom-alignment": {}
   "tree-view":
     hideVcsIgnoredFiles: true
   "unity-ui":
     colorStatusIndicatorsInTreeView: true
-  "linter-elixirc":
-    elixircExecutablePath: "/usr/local/bin/elixirc"
-  "autocomplete-elixir":
-    elixrPath: "/usr/local/bin/elixir"
-    elixirPath: "/usr/local/bin/elixir"
+  welcome:
+    showOnStartup: false
   "xml-formatter":
     numberCharIndent: 4
-  "linter-rubocop": {}
