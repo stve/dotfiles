@@ -6,6 +6,7 @@ path_dirs=( \
             ./bin \
             ./.bundle/binstubs \
             $HOME/.bin \
+            /usr/local/sbin \
             )
 
 # Build path from directory list
