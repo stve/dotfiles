@@ -10,3 +10,5 @@ atom.symlink/blob-store/
 git/gitconfig.symlink
 
 npm-debug.log
+
+bundle.symlink/cache/
