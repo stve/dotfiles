@@ -18,6 +18,7 @@
       "linter-elixirc"
       "autocomplete-elixir"
       "linter-htmlhint"
+      "linter-jshint"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -27,6 +28,8 @@
       "vendor"
       ".bundle"
       "coverage"
+      "*.class"
+      ".DS_Store"
     ]
     projectHome: "/Users/steveagalloco/Projects"
     themes: [
@@ -40,6 +43,7 @@
     showIndentGuide: true
     showInvisibles: true
   "git-blame": {}
+  "go-config": {}
   "go-plus": {}
   linter:
     subtleLinterErrors: [
@@ -47,8 +51,14 @@
     ]
   "linter-elixirc":
     elixircExecutablePath: "/usr/local/bin/elixirc"
-  "linter-jshint": {}
+  "linter-eslint":
+    fixOnSave: true
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
   "linter-rubocop": {}
+  "linter-rust":
+    cargoPath: "/usr/local/bin/cargo"
+    rustcPath: "/usr/local/bin/rustc"
   minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
@@ -64,5 +74,4 @@
     colorStatusIndicatorsInTreeView: true
   welcome:
     showOnStartup: false
-  "xml-formatter":
-    numberCharIndent: 4
+  "xml-formatter": {}
