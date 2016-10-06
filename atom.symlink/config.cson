@@ -74,4 +74,5 @@
     colorStatusIndicatorsInTreeView: true
   welcome:
     showOnStartup: false
-  "xml-formatter": {}
+  "xml-formatter":
+    numberCharIndent: 4
