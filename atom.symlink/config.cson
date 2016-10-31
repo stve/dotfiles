@@ -1,5 +1,9 @@
 "*":
   "atom-alignment": {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "2a4db25f-5cc8-4bcd-ab25-36b19bc3c9c7"
+    xml: {}
   "autocomplete-elixir":
     elixirPath: "/usr/local/bin/elixir"
     elixrPath: "/usr/local/bin/elixir"
@@ -32,6 +36,7 @@
       ".DS_Store"
     ]
     projectHome: "/Users/steveagalloco/Projects"
+    telemetryConsent: "limited"
     themes: [
       "unity-ui"
       "base16-syntax"
