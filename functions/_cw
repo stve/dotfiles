@@ -1,2 +1,0 @@
-#compdef cw
-_files -W $PROJECTS -/
