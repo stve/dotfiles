@@ -22,7 +22,6 @@
       "linter-elixirc"
       "autocomplete-elixir"
       "linter-htmlhint"
-      "linter-jshint"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
