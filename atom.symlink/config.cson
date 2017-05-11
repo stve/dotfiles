@@ -18,7 +18,6 @@
       "exception-reporting"
       "metrics"
       "language-elixir"
-      "linter-rubocop"
       "linter-elixirc"
       "autocomplete-elixir"
       "linter-htmlhint"
@@ -59,10 +58,13 @@
     fixOnSave: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
-  "linter-rubocop": {}
+  "linter-rubocop":
+    disableWhenNoConfigFile: true
   "linter-rust":
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
+  "linter-ui-default":
+    showPanel: true
   minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
