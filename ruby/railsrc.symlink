@@ -1,1 +1,1 @@
---skip-test-unit --skip-turbolinks --skip-spring
+--skip-test --skip-turbolinks --skip-spring
