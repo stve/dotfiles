@@ -32,6 +32,7 @@
       "coverage"
       "*.class"
       ".DS_Store"
+      ".git"
     ]
     projectHome: "/Users/steveagalloco/Projects"
     telemetryConsent: "limited"
