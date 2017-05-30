@@ -1,55 +1,58 @@
 [hub]
-        protocol = https
+  protocol = https
 [user]
-        name = stve
-        email = steve.agalloco@gmail.com
+  name = Steve Agalloco
+  email = steve.agalloco@gmail.com
 [credential]
-        helper = osxkeychain
+  helper = osxkeychain
 [alias]
-        st = status
-        co = checkout
+  st = status
+  co = checkout
 
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
-        count   = !git shortlog -sn
+  promote = !$ZSH/bin/git-promote
+  wtf     = !$ZSH/bin/git-wtf
+  rank-contributors = !$ZSH/bin/git-rank-contributors
+  count   = !git shortlog -sn
 
-        # Create new branch in the form (stve/branchname)
-        new = !sh -c 'git checkout -b $(git config --get user.name)/$0'
+  # Create new branch in the form (stve/branchname)
+  new = !sh -c 'git checkout -b $(git config --get user.name)/$0'
 
-        # Push a new branch and track
-        pushup = !sh -c 'git push --set-upstream origin $(git copy-branch-name)'
+  # Push a new branch and track
+  pushup = !sh -c 'git push --set-upstream origin $(git copy-branch-name)'
 
-        # Initialize repository with an empty commit
-        root = !git init && git commit -m "root" --allow-empty
+  # Initialize repository with an empty commit
+  root = !git init && git commit -m "root" --allow-empty
 
-        # Commit without a file (message-only commit)
-        msg = commit --allow-empty -m
+  # Commit without a file (message-only commit)
+  msg = commit --allow-empty -m
+  commend = commit --amend --no-edit
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = true
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
 [core]
-        excludesfile = ~/.gitignore
-        editor = vim
+  excludesfile = ~/.gitignore
+  editor = vim
 [apply]
-        whitespace = nowarn
+  whitespace = nowarn
 [mergetool]
-        keepBackup = false
+  keepBackup = false
 [difftool]
-        prompt = false
+  prompt = false
 [help]
-        autocorrect = 1
+  autocorrect = 1
 [push]
-        # See `git help config` (search for push.default)
-        # for more information on different options of the below setting.
-        #
-        # Setting to git 2.0 default to suppress warning message
-        default = simple
+  # See `git help config` (search for push.default)
+  # for more information on different options of the below setting.
+  #
+  # Setting to git 2.0 default to suppress warning message
+  default = simple
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
 [pull]
-	rebase = true
+  rebase = true
+[include]
+  path = ~/.gitconfig.local

@@ -11,3 +11,5 @@ atom.symlink/package-deps-state.json
 npm-debug.log
 
 bundle.symlink/cache/
+
+git/gitconfig.local.symlink

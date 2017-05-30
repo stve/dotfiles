@@ -1,0 +1,4 @@
+[user]
+  signingkey = <INSERT SIGNING KEY HERE>
+[commit]
+  gpgsign = true
