@@ -1,5 +1,7 @@
 [hub]
   protocol = https
+[github]
+  user = stve
 [user]
   name = Steve Agalloco
   email = steve.agalloco@gmail.com
@@ -15,7 +17,7 @@
   count   = !git shortlog -sn
 
   # Create new branch in the form (stve/branchname)
-  new = !sh -c 'git checkout -b $(git config --get user.name)/$0'
+  new = !sh -c 'git checkout -b $(git config --get github.user)/$0'
 
   # Push a new branch and track
   pushup = !sh -c 'git push --set-upstream origin $(git copy-branch-name)'
