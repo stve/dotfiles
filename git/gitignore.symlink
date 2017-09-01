@@ -4,6 +4,7 @@
 .ruby-version
 .envrc
 .bundle
+.nvmrc
 
 *.bak
 *.class
