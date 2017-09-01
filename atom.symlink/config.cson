@@ -64,8 +64,7 @@
   "linter-rust":
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
-  "linter-ui-default":
-    panelHeight: 75
+  "linter-ui-default": {}
   minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
@@ -75,8 +74,7 @@
       "source.gfm"
       "text.git-commit"
     ]
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "unity-ui":
     colorStatusIndicatorsInTreeView: true
   welcome:
