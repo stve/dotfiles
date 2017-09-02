@@ -2,7 +2,7 @@
 #
 # atom
 #
-# This installs atom packages storeed in my-packages.txt
+# This installs starred atom packages
 
 # Check for Homebrew
 if test ! $(which apm)
