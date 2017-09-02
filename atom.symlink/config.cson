@@ -64,7 +64,8 @@
   "linter-rust":
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 75
   minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
