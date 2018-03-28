@@ -37,8 +37,8 @@
     projectHome: "/Users/steveagalloco/Projects"
     telemetryConsent: "limited"
     themes: [
-      "unity-ui"
-      "base16-syntax"
+      "dracula-ui"
+      "dracula-syntax"
     ]
   editor:
     fontFamily: "Menlo"
@@ -65,7 +65,7 @@
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
   "linter-ui-default":
-    panelHeight: 75
+    panelHeight: 255
   minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
