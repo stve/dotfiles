@@ -41,8 +41,7 @@
       "dracula-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
-    fontSize: 12
+    fontFamily: "Fira Code "
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -56,7 +55,8 @@
   "linter-elixirc":
     elixircExecutablePath: "/usr/local/bin/elixirc"
   "linter-eslint":
-    fixOnSave: true
+    autofix:
+      fixOnSave: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "linter-rubocop":
