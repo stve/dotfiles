@@ -4,6 +4,11 @@
     general:
       _analyticsUserId: "2a4db25f-5cc8-4bcd-ab25-36b19bc3c9c7"
     xml: {}
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+    use:
+      "atom-ide-diagnostics-ui": "never"
   "autocomplete-elixir":
     elixirPath: "/usr/local/bin/elixir"
     elixrPath: "/usr/local/bin/elixir"
