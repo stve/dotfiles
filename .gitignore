@@ -5,6 +5,7 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 atom.symlink/.apm/
+atom.symlink/.atom-socket-secret*
 atom.symlink/blob-store/
 atom.symlink/package-deps-state.json
 atom.symlink/github.cson
