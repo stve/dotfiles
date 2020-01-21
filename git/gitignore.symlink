@@ -5,6 +5,6 @@
 .envrc
 .bundle
 .nvmrc
-
+.tool-versions
 *.bak
 *.class
