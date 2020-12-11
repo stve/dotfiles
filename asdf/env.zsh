@@ -1,7 +1,3 @@
-autoload -Uz compinit && compinit
-
-autoload -Uz bashcompinit && bashcompinit
-
 if test -d "/usr/local/opt/asdf"; then
     export ASDF_DIR=/usr/local/opt/asdf
 else
@@ -9,4 +5,8 @@ else
 fi
 
 . "$ASDF_DIR/asdf.sh"
-. "$ASDF_DIR/etc/bash_completion.d/asdf.bash"
+
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit
+compinit
