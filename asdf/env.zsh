@@ -8,3 +8,4 @@ if [[ -f "$ASDF_INSTALL_DIR/libexec/asdf.sh" ]]; then
     . "$ASDF_INSTALL_DIR/libexec/asdf.sh"
 fi
 
+unset ASDF_INSTALL_DIR
