@@ -9,6 +9,8 @@ function update-abbreviations
     abbr rg 'rails generate'
     abbr rs 'rails server'
   end
+
+  abbr cl 'clear'
 end
 
 # alias cov='/usr/bin/open -a "/Applications/Google Chrome.app" coverage/index.html'
