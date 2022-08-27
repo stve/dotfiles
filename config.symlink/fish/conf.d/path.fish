@@ -17,3 +17,7 @@ end
 if test -d $HOME/.cargo/bin # rust
   fish_add_path $HOME/.cargo/bin
 end
+
+if test -d /Applications/Chia.app/Contents/Resources/app.asar.unpacked/daemon
+  fish_add_path /Applications/Chia.app/Contents/Resources/app.asar.unpacked/daemon
+end
