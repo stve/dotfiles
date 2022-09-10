@@ -7,3 +7,6 @@ git/gitconfig.local.symlink
 # fish plugins
 config.symlink/fish/conf.d/asdf.fish
 config.symlink/fish/completions/asdf.fish
+
+# iterm
+config.symlink/iterm2/
