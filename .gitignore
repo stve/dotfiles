@@ -10,3 +10,6 @@ config.symlink/fish/completions/asdf.fish
 
 # iterm
 config.symlink/iterm2/
+
+# dracula
+iterm2/Dracula Pro*
