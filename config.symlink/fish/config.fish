@@ -1,3 +1,5 @@
+set -U fish_greeting "🐟"
+
 if status is-interactive
     set -gx EDITOR code
     set -gx PROJECTS ~/Projects
