@@ -128,10 +128,16 @@ disabled = true
 format = "[$ahead_behind$untracked$modified]($style) "
 
 [golang]
-disabled = true
+symbol = ""
+format = "go:([$symbol($version )]($style))"
+version_format = "${raw}"
 
 [helm]
 disabled = true
+
+[hostname]
+ssh_symbol = "@"
+format = "$ssh_symbol[$hostname](bright-blue) "
 
 [java]
 disabled = true
@@ -181,6 +187,11 @@ disabled = true
 [python]
 disabled = true
 
+[ruby]
+symbol = ""
+format = "ruby:([$symbol($version )]($style))"
+version_format = "${raw}"
+
 [rust]
 disabled = true
 
@@ -207,7 +218,3 @@ disabled = true
 
 [username]
 format = "[$user]($style)"
-
-[hostname]
-ssh_symbol = "@"
-format = "$ssh_symbol[$hostname](bright-blue) "
