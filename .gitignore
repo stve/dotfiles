@@ -8,6 +8,7 @@ git/gitconfig.local.symlink
 config.symlink/fish/conf.d/asdf.fish
 config.symlink/fish/functions/fisher.fish
 config.symlink/fish/completions/
+config.symlink/fish/fish_variables
 
 # iterm
 config.symlink/iterm2/
