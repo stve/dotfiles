@@ -6,8 +6,8 @@ if test -d $HOME/bin
   fish_add_path $HOME/bin
 end
 
-if test -d $HOME/go/bin
-  fish_add_path $HOME/go/bin
+if test -d "$GOPATH/bin"
+  fish_add_path $GOPATH//bin
 end
 
 if test -d /opt/homebrew/bin
