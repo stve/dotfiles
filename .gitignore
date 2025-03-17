@@ -15,3 +15,6 @@ config.symlink/iterm2/
 
 # dracula
 iterm2/Dracula Pro*
+
+# cody
+config.symlink/cody-ai/
