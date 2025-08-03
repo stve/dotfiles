@@ -4,7 +4,7 @@
 -- 3. Open Mail.app
 -- 4. Mail menu > Settings
 -- 5. In "General", set default mail reader to the script/app you saved
-                                                       
+-- https://gist.github.com/tomelliot/edac2c2fc4a1641214ddffde0df62c86                                                       
                                                        
 on open location this_URL
 	-- Extract the email address from the mailto: URL
