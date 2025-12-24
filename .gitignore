@@ -1,17 +1,23 @@
-atom.symlink/.node-gyp
-atom.symlink/.storage
-atom.symlink/compile-cache/
-atom.symlink/packages
-atom.symlink/storage
-atom.symlink/themes
-atom.symlink/.apm/
-atom.symlink/.atom-socket-secret*
-atom.symlink/blob-store/
-atom.symlink/package-deps-state.json
-atom.symlink/github.cson
-
 npm-debug.log
 
 bundle.symlink/cache/
 
 git/gitconfig.local.symlink
+
+# fish plugins
+config.symlink/fish/conf.d/asdf.fish
+config.symlink/fish/functions/fisher.fish
+config.symlink/fish/completions/
+config.symlink/fish/fish_variables
+
+# iterm
+config.symlink/iterm2/
+
+# dracula
+iterm2/Dracula Pro*
+
+# cody
+config.symlink/cody-ai/
+
+# zed
+config.symlink/zed/

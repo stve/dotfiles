@@ -20,7 +20,7 @@
   new = !sh -c 'git checkout -b $(git config --get github.user)/$0'
 
   # Push a new branch and track
-  pushup = !sh -c 'git push --set-upstream origin $(git copy-branch-name)'
+  pushup = !sh -c 'git push --set-upstream origin $(git branch --show-current)'
 
   # Initialize repository with an empty commit
   root = !git init && git commit -m "root" --allow-empty
@@ -50,6 +50,7 @@
   #
   # Setting to git 2.0 default to suppress warning message
   default = simple
+  autoSetupRemote = true
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
