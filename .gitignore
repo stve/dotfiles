@@ -21,3 +21,5 @@ config.symlink/cody-ai/
 
 # zed
 config.symlink/zed/
+
+config.symlink/1Password/
