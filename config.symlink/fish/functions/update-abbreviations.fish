@@ -14,4 +14,3 @@ function update-abbreviations
 end
 
 # alias cov='/usr/bin/open -a "/Applications/Google Chrome.app" coverage/index.html'
-# alias dev='foreman start -f Procfile.development'
