@@ -8,3 +8,5 @@
 .tool-versions
 *.bak
 *.class
+
+**/.claude/settings.local.json
