@@ -1,3 +1,7 @@
 SimpleCov.configure do
-  add_filter '.bundle'
+  if SimpleCov.respond_to?(:skip)
+    skip '.bundle'
+  elsif SimpleCov.respond_to?(:add_filter)
+    add_filter '.bundle'
+  end 
 end
