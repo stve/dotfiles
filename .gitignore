@@ -27,3 +27,9 @@ config.symlink/1Password/
 
 # extension.js
 config.symlink/extensionjs/
+
+# op
+config.symlink/op/
+
+# gh
+config.symlink/gh/
