@@ -7,3 +7,7 @@ if status is-interactive
 
     source /opt/homebrew/opt/asdf/libexec/asdf.fish
 end
+
+if test -f ~/.config/op/plugins.sh
+    source ~/.config/op/plugins.sh
+end
