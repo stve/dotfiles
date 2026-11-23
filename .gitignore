@@ -31,3 +31,6 @@ config.symlink/op/
 
 # gh
 config.symlink/gh/
+
+# solo
+config.symlink/soloterm/
