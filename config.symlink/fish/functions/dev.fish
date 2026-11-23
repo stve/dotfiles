@@ -4,8 +4,13 @@ function dev
 
     if test -f "Procfile.development"
         set -f procfile "Procfile.development"
-    else if -f "Procfile.development"
+    else if test -f "Procfile.dev"
         set -f procfile "Procfile.dev"
+    else if test -f "Procfile"
+        set -f procfile "Procfile"
+    else
+        echo "No Procfile found, returning"
+        return
     end
 
     if type -q overmind
